@@ -52,12 +52,12 @@ data cleaning process.
 
 Running gmodel.py works as follows:
 
-'''Loaded allsenders 1588 and mapping 28 dns mapping 1
+Loaded allsenders 1588 and mapping 28 dns mapping 1
 1 2005-12-08T23:34:30-06:00 ggolden22@mac.com
 251 2005-12-22T10:03:20-08:00 tpamsler@ucdavis.edu
 501 2006-01-12T11:17:34-05:00 lance@indiana.edu
-751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu'''
-...
+751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu
+
 
 The gmodel.py program does a number of data cleaing steps
 
@@ -75,7 +75,7 @@ indexed version of the email in index.sqlite.   This is the file to use to do da
 analysis.   With this file, data analysis will be really quick.
 
 The first, simplest data analysis is to do a "who does the most" and "which 
-organzation does the most"?  This is done using gbasic.py:'''
+organzation does the most"?  This is done using gbasic.py:
 
 How many to dump? 5
 Loaded messages= 51330 subjects= 25033 senders= 1584
@@ -93,7 +93,7 @@ umich.edu 6243
 uct.ac.za 2451
 indiana.edu 2258
 unicon.net 2055
-'''
+
 You can look at the data in index.sqlite and if you find a problem, you 
 can update the Mapping table and DNSMapping table in content.sqlite and
 re-run gmodel.py.
